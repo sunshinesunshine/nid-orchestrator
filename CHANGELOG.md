@@ -2,6 +2,10 @@
 
 All notable changes to **Nid (นิด / @nid) Orchestrator** will be documented in this file.
 
+## [1.0.1] - 2026-11-09
+- integrate GitHub Orchestrator Sync & Auto-Update Protocol into AGENTS.md §8
+
+
 ## [1.0.0] - 2026-11-09
 
 ### Added

@@ -298,6 +298,15 @@ When delegating complex or isolated sub-tasks to native Antigravity subagents vi
 - **Master index**: `knowledge/projects-summary.md` — cross-project status
 - **NotebookLM**: `NotebookLM_Bundle/[Project]_Master_Source.md` — auto-updated
 
+### 🌐 GitHub Orchestrator Sync & Auto-Update Protocol
+- **Repository**: [`sunshinesunshine/nid-orchestrator`](https://github.com/sunshinesunshine/nid-orchestrator)
+- **Live Interactive Diagram (GitHub Pages)**: [https://sunshinesunshine.github.io/nid-orchestrator/](https://sunshinesunshine.github.io/nid-orchestrator/)
+- **Auto-Update Trigger**: เมื่อมีการแก้ไขหรือพัฒนาเวิร์กโฟลว์, กฎการทำงาน หรือสถาปัตยกรรมของ นิด (Nid) ให้รันสคริปต์ซิงก์อัตโนมัติ:
+  ```bash
+  /bin/bash "projects/nid-orchestrator/sync_version.sh" patch "คำอธิบายการอัปเดต"
+  ```
+  สคริปต์จะทำการ bump version ใน `VERSION`, บันทึก `CHANGELOG.md`, ทำการ commit และ push ขึ้น GitHub อัตโนมัติ เพื่อให้หน้า GitHub Pages และ GitHub Repo อัปเดตเป็นเวอร์ชันถัดไปทันที (Auto-Update Next Version Guarantee)
+
 ---
 
 ## §9. Token & Context Optimization Standard (The RTK–Ponytail–Caveman Triad)
